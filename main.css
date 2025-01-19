@@ -1,0 +1,230 @@
+@import url(https://db.onlinewebfonts.com/c/8503adf008ebf781c6342c58254552e4?family=BMWTypeNext+Pro);
+.body {
+    font-family: "BMWTypeNext Pro";
+    margin: 0px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    color: white;
+}
+.video-background video  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    /* z-index: -1; */
+    object-fit: cover;
+    transform: translate(-50%,-50%);
+    /* overflow: hidden; */
+}
+.video-background{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    z-index: -1;
+    overflow: hidden;
+    /* background: linear-gradient(to bottom, rgba(196, 18, 18, 0.5), transparent); Shadow gradient */
+    /* pointer-events: none; Ensure it doesn't block video interaction */
+    /* z-index: 2;  */
+}
+.overlay{
+position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 80%;
+  background: linear-gradient(to right, rgb(0, 0, 0), transparent); /* Shadow gradient */
+  pointer-events: none; /* Ensure it doesn't block video interaction */
+  z-index:2;
+}
+.main{
+    position: relative;
+    margin: 0px;
+    z-index: 1;
+    padding: 0px 12px
+    
+}
+ul,li{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar1{
+    display: flex;
+    justify-content: space-between;
+    /* align-content: center; */
+}
+.navleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+.nav-tag{
+    margin: 10px;
+}
+.navright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .ul-link a:hover{
+    border-bottom: 3px solid #1c69d4;
+}
+.underline{
+    height: 1px;
+    width: 100%;
+    border-top: 1px solid white;
+}
+.middle-content{
+    margin-top:2.5in ;
+    margin-left: 0px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    /* align-items: center; */
+    /* /* height: 100px; */
+}
+.the{
+    font-weight: lighter;
+    /* margin-bottom: -10px; */
+}
+.five{
+    margin-top: 0px;
+    font-size: 10em;
+    font-weight: lighter;
+    margin-left: 3px;
+}
+.long-wheelbase{
+    font-size: 30px
+}
+.price1{
+    font-size: 20px;
+    margin: 2px;
+}
+.button1{
+    /* border: 1px solid black; */
+    background-color: #1163d5;
+    padding: 15px 40px 15px 40px;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    font-family: "BMWTypeNext Pro";
+    font-size: 15px;
+    margin-top: 10px;
+}
+.button1:hover{
+    background-color: #1750a1;
+}
+.find-your-bmw{
+    margin-top: 1.9in;
+    color: black;
+}
+
+.find-row{
+    display: flex;
+    justify-content: space-around;
+}
+.find1{
+    text-align: center;
+    font-size: 2.5em;
+    padding: 20px;
+
+}
+.image2{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+}
+.find-row-p{
+    font-size: 1.5em;
+    margin: 10px;
+}
+.find-row-1,.find-row-2,.find-row-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.find-button{
+    border: 2px solid black;
+    background-color: transparent;
+    border-radius:3px ;
+    padding: 15px;
+    margin-top: 10px;
+    font-family: "BMWTypeNext Pro";
+    font-size: 15px;
+    /* transition: box-shadow 0.3s ease; */
+}
+.find-button:hover{
+    box-shadow: inset 0 0 0 1px black; /* This creates an inner border effect */
+}
+.picture-image-1{
+    width: 100%;
+    padding: 0px;
+    /* object-fit: cover; */
+}
+
+.picture-1{
+    position:relative;
+    width: 100vw;
+    /* left: 0; */
+    margin-top: 1in;
+    /* z-index: -1; */
+}
+.picture-1-p1{
+    position:absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    justify-content: center;
+    align-items: start;
+    margin-top: 2in;
+    color: white;
+    z-index: 1;
+}
+.picture-1-p1-1{
+    font-size: 2em;
+    font-family: "BMWTypeNext Pro";
+}
+.picture-1-p1-2{
+    font-size: 1.2em;
+    margin-top: 15px;
+    font-family: "BMWTypeNext Pro";
+}
+.picture-1-button{
+    font-family: "BMWTypeNext Pro";
+    background: transparent;
+    border: 2px solid white;
+    margin-top: 15px;
+    color: white;
+    width: 300px;
+    border-radius: 3px;
+    font-size: 1em;
+    padding: 15px 0px; 
+}
+.picture-1-button:hover{
+    box-shadow: inset 0 0 0 1px white; /* This creates an inner border effect */
+}
+.overlay-2{
+    position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 80%;
+  background: linear-gradient(to right, rgb(0, 0, 0), transparent); /* Shadow gradient */
+  pointer-events: none; /* Ensure it doesn't block video interaction */
+  z-index:1;
+}
