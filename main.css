@@ -1,24 +1,47 @@
-@import url(https://db.onlinewebfonts.com/c/8503adf008ebf781c6342c58254552e4?family=BMWTypeNext+Pro);
-*{
-    margin: 0;
+@import url(https://db.onlinewebfonts.com/c/ac95f91c55cc591ecf37a4d136ff8031?family=BMWTypeNext+Pro+Regular);
+*{    margin: 0;
     padding: 0;
 }
 @media (max-width: 768px) {
+   
     .navbar1 {
-        flex-direction: column;
+        flex-direction: row;
     }
+   .special-offer{
+    display: flex;
+    flex-direction: column;
+   }
+   .footer-background{
+    display: none;
+   }
+   .navbar-left{
+    display: none;
+}
 
-    .navleft, .navright {
-        width: 100%;
-        justify-content: center;
+
+   .navright{
+        /* width: 100%; */
+        justify-content: end;
+    }
+    .navleft{
+        display: flex;
+        justify-content: start;
     }
 
     .ul-link {
         justify-content: center;
     }
 
-    .middle-content {
-        margin-top: 10vh;
+    .responsive-mid,.the,.five{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15svh;
+    }
+    .button1{
+        /* width: 100%; */
+        /* display: none; */
     }
 
     .find-row {
@@ -29,14 +52,27 @@
         width: 100%;
     }
 }
-.nav-tag{
-}
+
+
 
 @media (max-width: 480px) {
+   
     .nav-tag {
         margin: 5px;
     }
+.the,.five{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.mobile-1{
+    height: 50svh;
+    display: flex;
+    flex-direction: column;
+    object-fit: fill;
+}
     .five {
         font-size: 20vw;
     }
@@ -44,9 +80,12 @@
     .button1, .find-button, .picture-1-button {
         width: 100%;
     }
+    .navbar-left{
+        display: none;
+    }
 }
 .body {
-    font-family: "BMWTypeNext Pro";
+    font-family: "BMWTypeNext Pro Regular";
     /* margin: 0px; */
     width: 90vw;
     margin: auto;
@@ -173,7 +212,7 @@ li a{
     border-radius: 3px;
     color: white;
     border: none;
-    font-family: "BMWTypeNext Pro";
+    font-family: "BMWTypeNext Pro Regular";
     font-size: 15px;
     margin-top: 10px;
 }
@@ -181,7 +220,7 @@ li a{
     background-color: #1750a1;
 }
 .find-your-bmw{
-    font-family: "BMWTypeNext Pro";
+    font-family: "BMWTypeNext Pro Regular";
     margin-top: 24vh;
     color: black;
 }
@@ -217,7 +256,7 @@ li a{
     border-radius:3px ;
     padding: 15px;
     margin-top: 10px;
-    font-family: "BMWTypeNext Pro";
+    font-family: "BMWTypeNext Pro Regular";
     font-size: 15px;
     /* transition: box-shadow 0.3s ease; */
 }
@@ -254,15 +293,15 @@ li a{
 }
 .picture-1-p1-1{
     font-size: 2em;
-    font-family: "BMWTypeNext Pro";
+    font-family: "BMWTypeNext Pro Regular";
 }
 .picture-1-p1-2{
     font-size: 1.2em;
     margin-top: 15px;
-    font-family: "BMWTypeNext Pro";
+    font-family: "BMWTypeNext Pro Regular";
 }
 .picture-1-button{
-    font-family: "BMWTypeNext Pro";
+    font-family: "BMWTypeNext Pro Regular";
     background: transparent;
     border: 2px solid white;
     margin-top: 15px;
@@ -323,7 +362,7 @@ position: absolute;
     width: 50vw;
 }
 .special-offer-detail{
-    font-family: "BMWTypeNext Pro";
+    font-family: "BMWTypeNext Pro Regular";
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -343,7 +382,7 @@ position: absolute;
     background-color: rgb(188, 184, 184);
 }
 .footer-1{
-    font-family:"BMWTypeNext Pro" ;
+    font-family:"BMWTypeNext Pro Regular" ;
     display: flex;
     width: 90vw;
     margin: 5vh 0 5vh 5vw;
@@ -362,7 +401,7 @@ position: absolute;
 
 }
 .footer-detail{
-    font-family:"BMWTypeNext Pro" ;
+    font-family:"BMWTypeNext Pro Regular" ;
 
     display: flex;
     justify-content: space-between;
@@ -403,7 +442,7 @@ position: absolute;
     width: 2vw;
 }
 .copyright{
-    font-family:"BMWTypeNext Pro" ;
+    font-family:"BMWTypeNext Pro Regular" ;
     /* width: 90vw; */
     margin: 3svh 5vw 3svh 5vw;
     display: flex;
