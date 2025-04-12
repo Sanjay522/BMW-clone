@@ -17,6 +17,9 @@
    .navbar-left{
     display: none;
 }
+.menu-1{
+    display: block;
+}
 
 
    .navright{
@@ -83,6 +86,7 @@
     .navbar-left{
         display: none;
     }
+   
 }
 .body {
     font-family: "BMWTypeNext Pro Regular";
@@ -116,6 +120,9 @@
     /* pointer-events: none; Ensure it doesn't block video interaction */
     /* z-index: 2;  */
 }
+.menu-1{
+    display: none;
+}
 .overlay{
 position: relative;
   top: 0;
@@ -139,6 +146,9 @@ position: relative;
     margin: 0px;
     padding: 0px;
 }
+.left{
+    fill: #1163d5;
+}
 li a{
     text-decoration: none;
     color: white;
@@ -152,6 +162,9 @@ li a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.navbar-left{
+    margin-left: 20px;
 }
 .ul-link{
     display: flex;
@@ -187,6 +200,15 @@ li a{
     justify-content: center;
     /* align-items: center; */
     /* /* height: 100px; */
+}
+.menu-button{
+    background: transparent;
+    border: none;
+    /* height: 50px; */
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+    display: none;
 }
 .the{
     font-weight: lighter;
@@ -462,4 +484,59 @@ position: absolute;
 }
 .image2{
     mix-blend-mode: color-burn;
+}
+.picture-1-animation{
+    overflow-x: hidden;
+    position: relative;
+    animation-name: run;
+    animation-duration: 2s;
+}
+.picture-1-animation2{
+    overflow-x: hidden;
+
+    position: relative;
+    animation-name: run2;
+    animation-duration: 2s;
+}
+.picture-1-animation3{
+    overflow-x: hidden;
+    position: relative;
+    animation-name: run3;
+    animation-duration: 2s;
+}
+@keyframes run {
+    0%{
+        left:-100%;
+        top: 0;
+        right: 0;
+    }
+    100%{
+        left: 0%;
+        right: 0%;
+    }
+    
+}
+@keyframes run2 {
+    0%{
+        top: 0;
+        left: 100%;
+        right: -100%;
+    }
+    100%{
+        left: 0%;
+        right: 0%;
+    }
+    
+}
+@keyframes run3 {
+    0%{
+        left:-100%;
+        top: 0;
+        right: 0;
+    }
+    100%{
+        left: 0%;
+        right: 0%;
+    }
+    
 }
